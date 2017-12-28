@@ -27,18 +27,16 @@
         android:id="@+id/et_search_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter the search query for github"
-        android:textSize="22sp"
-        tools:ignore="HardcodedText" />
+        android:hint="@string/search_box"
+        android:textSize="22sp" />
 
     <TextView
         android:id="@+id/tv_url_display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:hint="Search"
-        android:textSize="22sp"
-        tools:ignore="HardcodedText" />
+        android:hint="@string/url_display"
+        android:textSize="22sp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -49,9 +47,8 @@
             android:id="@+id/tv_github_search_results_json"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="search"
-            android:textSize="18sp"
-            tools:ignore="HardcodedText" />
+            android:hint="@string/search_results"
+            android:textSize="18sp" />
 
     </ScrollView>
 
